@@ -19,7 +19,7 @@ module.exports = {
   coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
 
   // pattern used by jest to detect directory and testfiles
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$',
+  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.{js, jsx}',
 
   // sets URL for jsdom environment
   // reflected in properties such as location.href
